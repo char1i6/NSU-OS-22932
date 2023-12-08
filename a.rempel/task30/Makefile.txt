@@ -1,0 +1,5 @@
+all:
+client:
+	gcc client30.c -o client30
+server:
+	gcc server30.c -o server30
