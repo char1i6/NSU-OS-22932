@@ -8,7 +8,7 @@ int main() {
 
     if (pid == 0) {
         // Child process
-        execlp("cat", "cat", "../task1.c", NULL);
+        execlp("cat", "cat", "../task1/task1.c", NULL);
         return 1;
     } else {
         // Parent process
